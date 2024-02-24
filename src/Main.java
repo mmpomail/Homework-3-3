@@ -8,11 +8,11 @@ public class Main {
         int sum = 1_000_000; // общая сумма платежа в рублях
 
         System.out.println();
-        System.out.println("Ваш ежемесячный платёж: " + serv.calculate (12, sum,per));
+        System.out.println("Ваш ежемесячный платёж: " + serv.calculate(12, sum, per));
         System.out.println();
-        System.out.println("Ваш ежемесячный платёж: " + serv.calculate (24, sum, per));
+        System.out.println("Ваш ежемесячный платёж: " + serv.calculate(24, sum, per));
         System.out.println();
-        System.out.println("Ваш ежемесячный платёж: " + serv.calculate (36, sum, per));
+        System.out.println("Ваш ежемесячный платёж: " + serv.calculate(36, sum, per));
 
     }
 }
